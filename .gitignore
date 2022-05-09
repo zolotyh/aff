@@ -250,4 +250,3 @@ dist
 ### Serverless ###
 # Ignore build directory
 .serverless
-
