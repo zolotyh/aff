@@ -11,4 +11,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.version }}
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: npm ci
+      - run: npm run lint
+      - run: npm test
