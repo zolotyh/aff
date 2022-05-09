@@ -1,0 +1,21 @@
+{
+  "name": "romka",
+  "version": "0.0.1",
+  "description": "Modest api-first approach",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-zolotyh:zolotyh/romka.git"
+  },
+  "keywords": [
+    "openapi",
+    "typescript",
+    "oa3",
+    "api-first"
+  ],
+  "author": "Aleksei Zolotykh",
+  "license": "MIT"
+}
