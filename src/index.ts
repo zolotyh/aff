@@ -1,1 +1,1 @@
-export * from './Romka'
+export * from './Romka';
