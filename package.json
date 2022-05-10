@@ -1,13 +1,14 @@
 {
   "name": "romka",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "Modest api-first approach framework",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "test:ci": "jest --ci --coverage",
-    "lint": "eslint \"src/**/*.ts\" --fix"
+    "lint": "eslint \"src/**/*.ts\" --fix",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
     "husky": "^8.0.1",
     "jest": "^28.1.0",
     "prettier": "^2.6.2",
+    "standard-version": "^9.3.2",
     "ts-jest": "^28.0.2",
     "typescript": "^4.6.4"
   }
