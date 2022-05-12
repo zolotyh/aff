@@ -1,9 +1,9 @@
-import {Route} from "./Route";
+import { Route } from './Route';
 
 export class RouterMatcherResult {
-  constructor(public readonly routes: Route [] = []){}
+  constructor(public readonly routes: Route[] = []) {}
 
-  get isFound(): boolean{
+  get isFound(): boolean {
     return !!this.routes.length;
   }
 }

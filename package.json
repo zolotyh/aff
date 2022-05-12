@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "test:ci": "jest --ci --coverage",
-    "lint": "eslint \"src/**/*.ts\" --fix",
+    "lint": "eslint \"src/**/*.ts\"",
     "release": "standard-version && git push --follow-tags origin main && npm publish",
     "lint:diff": "lint-staged"
   },
